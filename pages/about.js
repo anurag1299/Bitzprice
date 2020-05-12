@@ -1,19 +1,8 @@
-import Link from "next/link";
+import Navbar from "../components/Navbar";
 
 const About = () => (
   <div>
-    <ul>
-      <li>
-        <Link href="/">
-          <a>Home</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/about">
-          <a>About</a>
-        </Link>
-      </li>
-    </ul>
+    <Navbar></Navbar>
     <h1>About BitzPrice</h1>
     <p>Application to view Bitcoin prices</p>
   </div>
